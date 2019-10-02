@@ -25,9 +25,9 @@ def get_filters():
             if city in  CITY_DATA:
                 break
             else:
-                print('sorry invalid input *_* : try again  ')
+                print('sorry invalid input x_x : try again  ')
         except:
-            print('sorry *_* : try again ')
+            print('sorry x_x : try again ')
         
     
     # get user input for month (all, january, february, ... , june)
@@ -46,12 +46,12 @@ def get_filters():
                         if month in months:
                             break
                         else: 
-                            print('sorry invalid input *_* : try again  ')
+                            print('sorry invalid input x_x : try again  ')
                     break
             else:
-                print('sorry invalid input *_* : try again ')
+                print('sorry invalid input x_x : try again ')
         except:
-            print('sorry invalid input *_* : try again ')
+            print('sorry invalid input x_x : try again ')
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -68,12 +68,12 @@ def get_filters():
                         if day in days:
                             break
                         else:
-                            print('sorry invalid input *_* : try again  ')
+                            print('sorry invalid input x_x : try again  ')
                     break
             else:
-                print('sorry invalid input *_* : try again ')
+                print('sorry invalid input x_x : try again ')
         except:
-            print('sorry invalid input *_* : try again ')       
+            print('sorry invalid input x_x : try again ')       
       
     print('-'*40)
     return city, month, day
@@ -225,9 +225,9 @@ def main():
                     else:
                         break
                 else: 
-                    print('sorry invalid input *_* : try again ')  
+                    print('sorry invalid input x_x : try again ')  
             except:
-                print('sorry invalid input *_* : try again ')  
+                print('sorry invalid input x_x : try again ')  
 
         check = 0        
         while True:        
@@ -241,9 +241,9 @@ def main():
                         check=0
                         break
                 else:
-                    print('sorry invalid input *_* : try again ')
+                    print('sorry invalid input x_x : try again ')
             except:
-                print('sorry invalid input *_* : try again ')
+                print('sorry invalid input x_x : try again ')
         if check==0:
             break
                 
