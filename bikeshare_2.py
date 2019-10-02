@@ -114,10 +114,7 @@ def load_data(city, month, day):
     if day != 'all':
        
         df = df[df['day']==day.title()]
-#     time_stats(df)
-#     station_stats(df)
-#     trip_duration_stats(df)
-#     user_stats(df)
+
     return df
 
  
@@ -204,7 +201,6 @@ def user_stats(df):
     print("counts of user types \n{}\ncounts of gender \n{} \nThe earliest birth year is: {}\nTne most recent birth year is {}\nThe most common birth year is {}".format(counts_user_types,count_of_gender,earliest_birth_year,most_recent_birth_year,most_common_birth_year))
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-# get_filters()
 
 def main():
     while True:
